@@ -1,16 +1,10 @@
 package com.example.spring_boot_a_z_restapi.dto;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
-public class StudentDto {
-    private long id;
+public class AddStudentRequestDto {
     private String name;
     private String email;
-
-
-
 }
